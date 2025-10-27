@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 31
 
+    namespace "be.tramckrijte.workmanager"
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
